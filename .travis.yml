@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "6"
+  - "7"
+before_install:
+- sudo apt-get install google-chrome-stable
+install:
+  - npm install
+script:
+  - npm run test
+after_success:
+- cat ./coverage/lcov.info | node_modules/.bin/coveralls --verbose
+- rm -rf ./coverage
+branches:
+  only:
+    - master
