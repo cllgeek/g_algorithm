@@ -1,5 +1,5 @@
-function binarySearch(arr, low, high, key) {
-	var mid = parseInt((low + high) / 2);
+const binarySearch = (arr, low, high, key) => {
+	let mid = parseInt((low + high) / 2);
 	if (arr[mid] === key) return mid;
 	if (arr[mid] > key) {
 		high = mid - 1;
