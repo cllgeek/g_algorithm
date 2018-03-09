@@ -1,5 +1,12 @@
-const binarySearch = (arr, low, high, key) => {
-	let mid = parseInt((low + high) / 2);
+/**
+ * @desc 二分法查找
+ * @param {Array} arr
+ * @param {Number} low
+ * @param {Number} high
+ * @param {Number} key
+ */
+function binarySearch(arr, low, high, key) {
+	var mid = parseInt((low + high) / 2);
 	if (arr[mid] === key) return mid;
 	if (arr[mid] > key) {
 		high = mid - 1;
