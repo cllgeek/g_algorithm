@@ -1,6 +1,6 @@
 {
   "name": "g_algorithm",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "front_end algorithm collection",
   "main": "index.js",
   "scripts": {
