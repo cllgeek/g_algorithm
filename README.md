@@ -1,4 +1,4 @@
-## g_arithemetic
+## g_algorithm
 [![npm](https://img.shields.io/npm/v/g_arithemetic.svg)](https://www.npmjs.com/package/g_arithemetic)
 ![Build Status](https://api.travis-ci.org/cllgeek/g_arithemetic.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/cllgeek/g_arithemetic/badge.svg?branch=master)](https://coveralls.io/github/cllgeek/g_arithemetic?branch=master)

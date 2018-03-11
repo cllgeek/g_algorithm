@@ -1,7 +1,7 @@
 {
-  "name": "g_arithemetic",
+  "name": "g_algorithm",
   "version": "1.1.1",
-  "description": "front_end arithemetic collection",
+  "description": "front_end algorithm collection",
   "main": "index.js",
   "scripts": {
     "build": "node script/build.js",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cllgeek/g_arithemetic.git"
+    "url": "git+https://github.com/cllgeek/g_algorithm.git"
   },
   "keywords": [
-    "arithemetic"
+    "algorithm"
   ],
   "author": "cll",
   "license": "MIT",
@@ -36,7 +36,7 @@
     "webpack": "^3.8.1"
   },
   "bugs": {
-    "url": "https://github.com/cllgeek/g_arithemetic/issues"
+    "url": "https://github.com/cllgeek/g_algorithm/issues"
   },
-  "homepage": "https://github.com/cllgeek/g_arithemetic#readme"
+  "homepage": "https://github.com/cllgeek/g_algorithm#readme"
 }
