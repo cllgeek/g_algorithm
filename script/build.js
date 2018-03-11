@@ -31,7 +31,8 @@ new Promise((resolve, reject) => {
 				}) + "\n\n"
 			);
 			resolve();
-			console.log(chalk.cyan("	Build complete.\n"));
+			log(chalk.cyan("	Build complete.\n"));
+			log(chalk.blue("	欢迎大家加上没有的算法"))
 		});
 	});
 })
