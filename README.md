@@ -1,6 +1,7 @@
 ## g_arithemetic
 [![npm](https://img.shields.io/npm/v/g_arithemetic.svg)](https://www.npmjs.com/package/g_arithemetic)
 ![Build Status](https://api.travis-ci.org/cllgeek/g_arithemetic.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/cllgeek/g_arithemetic/badge.svg?branch=master)](https://coveralls.io/github/cllgeek/g_arithemetic?branch=master)
 [![LICENSE MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://www.npmjs.com/package/g_arithemetic)
 
 前端算法代码收集库
