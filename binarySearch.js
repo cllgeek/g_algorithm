@@ -6,7 +6,7 @@
  * @param {Number} key
  */
 function binarySearch(arr, low, high, key) {
-	var mid = parseInt((low + high) / 2);
+	var mid = low + (high - low) / 2 | 0;
 	if (arr[mid] === key) return mid;
 	if (arr[mid] > key) {
 		high = mid - 1;
